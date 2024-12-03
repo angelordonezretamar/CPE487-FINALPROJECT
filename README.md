@@ -9,7 +9,8 @@
 
 ### How to get the project to work in Vivado
 * use the lab 6 files as imports into a new Vivado project, copy and paste the code, or download the raw files included in the STARTER folder
-##### 1. Create a new RTL project _pong_ in Vivado Quick Start
+* including startup directions from lab 6:
+#### 1. Create a new RTL project _pong_ in Vivado Quick Start
 
 * Create six new source files of file type VHDL called **_clk_wiz_0_**, **_clk_wiz_0_clk_wiz_**, **_vga_sync_**, **_bat_n_ball_**, **_leddec16_**, and **_pong_**
 
@@ -29,13 +30,13 @@
 
 * As an alternative, you can instead download files from Github and import them into your project when creating the project. The source file or files would still be imported during the Source step, and the constraint file or files would still be imported during the Constraints step.
 
-##### 2. Run synthesis
+#### 2. Run synthesis
 
-##### 3. Run implementation
+#### 3. Run implementation
 
-##### 3b. (optional, generally not recommended as it is difficult to extract information from and can cause Vivado shutdown) Open implemented design
+#### 3b. (optional, generally not recommended as it is difficult to extract information from and can cause Vivado shutdown) Open implemented design
 
-##### 4. Generate bitstream, open hardware manager, and program device
+#### 4. Generate bitstream, open hardware manager, and program device
 
 * Click 'Generate Bitstream'
 
