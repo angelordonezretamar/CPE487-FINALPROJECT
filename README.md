@@ -5,7 +5,7 @@
 * starter files can be found [here](https://github.com/byett/dsd/tree/CPE487-Fall2024/Nexys-A7/Lab-6)
 * lab 5 code is also used to add sounds to the game, files can be found [here](https://github.com/byett/dsd/tree/CPE487-Fall2024/Nexys-A7/Lab-5)
 * attachments needed: VGA connector, monitor, speaker module
-* intended behavior:
+* intended behavior: the project runs a game of breakout on the monitor. The bricks are spawned using switch #15 on the Nexus board, the ball is served by pressing BTNC. With the speaker module connected, you will hear sounds when the ball hits a brick, when it hits the bat, and when it destroys a brick. The score will be counted at the bottom of the screen.
 
 ### How to get the project to work in Vivado
 * use the lab 6 files as imports into a new Vivado project, copy and paste the code, or download the raw files included in the STARTER folder
